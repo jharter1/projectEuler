@@ -4,10 +4,10 @@ justSum = 0
 
 
 for i in range(1,101):
-    sumSquare = sumSquare + i**2
+    sumSquare += i**2
 
 for i in range(1,101):
-    justSum = justSum + i
+    justSum += i
     squareSum = justSum ** 2
 
 diffSuSqSqSu = squareSum - sumSquare
